@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './Customer/Component/Navigation/Navigation';
+import HomePage from './Customer/Pages/HomePage/HomePage';
 
 function App() {
   return (
     <div className="">
    <Navigation/>
+
+   <div><HomePage/></div>
     </div>
+    
   );
 }
 
